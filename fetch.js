@@ -60,6 +60,6 @@ const newProducts = [...dailyProducts, newProduct];
 // console.log(newProducts);
 
 
-// create a new array without an specific item
+// create a new array without a specific item
 const remainingProducts = dailyProducts.filter(product => product.name !== 'Musturd oil');
 console.log(remainingProducts); 
