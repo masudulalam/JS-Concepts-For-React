@@ -8,3 +8,14 @@ if(myNumber){
     myNumber = 0;
 }
 
+
+const myMoney = 800;
+let food;
+if(myMoney > 100) {
+    food = 'Biriyani';
+}else{
+    food = 'Cha-Biscuit';
+}
+// ternary
+let food1 = myMoney > 100 ? 'Biriyani' : 'Cha-Biscuit';
+console.log(food1);
