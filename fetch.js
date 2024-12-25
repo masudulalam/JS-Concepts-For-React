@@ -16,8 +16,15 @@ const student = {
   
   
 const studentJSON = JSON.stringify(student);
-console.log(student);
-console.log(studentJSON);
+// console.log(student);
+// console.log(studentJSON);
 
 const studentObject = JSON.parse(studentJSON);
 console.log(studentObject);
+
+
+
+// Fetch
+fetch('url')
+.then(res => res.JSON())
+.then(data => console.log(data))
