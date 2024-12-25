@@ -7,7 +7,13 @@ const dailyProducts = [
     {name: 'Musturd oil', price: 150, color: 'white', production: 'natural', brand:'Muslim Oil'},
 ]
 
+// array.map()
 const nameOfProducts = dailyProducts.map(product => product.name);
 const price = dailyProducts.map(product => product.price);
-console.log(nameOfProducts);
-console.log(price);
+// console.log(nameOfProducts);
+// console.log(price);
+
+// array.forEach()
+// dailyProducts.forEach(product => console.log(product));
+dailyProducts.forEach(product => console.log(product.name));
+dailyProducts.forEach(product => console.log(product.brand));
