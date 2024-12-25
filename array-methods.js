@@ -13,7 +13,16 @@ const price = dailyProducts.map(product => product.price);
 // console.log(nameOfProducts);
 // console.log(price);
 
+
 // array.forEach()
 // dailyProducts.forEach(product => console.log(product));
-dailyProducts.forEach(product => console.log(product.name));
-dailyProducts.forEach(product => console.log(product.brand));
+// dailyProducts.forEach(product => console.log(product.name));
+// dailyProducts.forEach(product => console.log(product.brand));
+
+
+// array.filter()
+const cheap = dailyProducts.filter(product => product.price <= 40);
+console.log(cheap);
+
+
+// array.find()
