@@ -22,7 +22,11 @@ const price = dailyProducts.map(product => product.price);
 
 // array.filter()
 const cheap = dailyProducts.filter(product => product.price <= 40);
-console.log(cheap);
+const cheap2 = dailyProducts.filter(product => product.price <= 50);
+// console.log(cheap);
+// console.log(cheap2);
 
 
 // array.find()
+const cheap3 = dailyProducts.find(product => product.price <= 50);
+console.log(cheap3);
