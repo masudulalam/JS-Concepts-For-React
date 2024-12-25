@@ -25,6 +25,12 @@ console.log(studentObject);
 
 
 // Fetch
-fetch('url')
-.then(res => res.JSON())
-.then(data => console.log(data))
+// fetch('url')
+// .then(res => res.JSON())
+// .then(data => console.log(data))
+
+// keys, values
+const keys = Object.keys(student);
+const values = Object.values(student);
+console.log(keys);
+console.log(values);
