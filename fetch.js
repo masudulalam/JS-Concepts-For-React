@@ -57,4 +57,9 @@ const dailyProducts = [
 const newProduct = {name: 'Broccoli', price: 40, color: 'green', production: 'natural', brand:'Muslim Vegetables'};
 // copy dailyProducts array and then add new product
 const newProducts = [...dailyProducts, newProduct];
-console.log(newProducts);
+// console.log(newProducts);
+
+
+// create a new array without an specific item
+const remainingProducts = dailyProducts.filter(product => product.name !== 'Musturd oil');
+console.log(remainingProducts); 
